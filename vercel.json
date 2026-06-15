@@ -1,8 +1,4 @@
 {
   "framework": "nextjs",
-  "build": {
-    "env": {
-      "TURBOPACK": "0"
-    }
-  }
+  "buildCommand": "next build --webpack"
 }
