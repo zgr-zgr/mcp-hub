@@ -8,7 +8,7 @@ import { CATEGORY_LABELS } from "@/lib/types";
 import type { McpCategory } from "@/lib/types";
 import ServerCard from "@/components/ServerCard";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 interface Props {
   searchParams: Promise<{

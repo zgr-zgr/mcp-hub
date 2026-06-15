@@ -9,7 +9,7 @@ import { TEMPLATE_CATEGORY_LABELS } from "@/lib/types";
 import { Download, Lock, ArrowLeft, ExternalLink, CheckCircle, Copy } from "lucide-react";
 import CopyButton from "@/components/CopyButton";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 interface Props {
   params: Promise<{ id: string }>;

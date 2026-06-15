@@ -8,7 +8,7 @@ import { TEMPLATE_CATEGORY_LABELS } from "@/lib/types";
 import type { TemplateCategory } from "@/lib/types";
 import TemplateCard from "@/components/TemplateCard";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 interface Props {
   searchParams: Promise<{

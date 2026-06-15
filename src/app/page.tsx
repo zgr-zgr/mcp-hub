@@ -11,7 +11,7 @@ import ServerCard from "@/components/ServerCard";
 import TemplateCard from "@/components/TemplateCard";
 import SearchBar from "@/components/SearchBar";
 
-export const dynamic = "force-static"; // 静态生成（Supabase 未配置时用 mock 数据）
+export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   // 并行获取数据

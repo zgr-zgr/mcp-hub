@@ -6,7 +6,7 @@
 import { getServers, getTemplates } from "@/lib/data";
 import Link from "next/link";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 export default async function AdminPage() {
   const [servers, templates] = await Promise.all([getServers(), getTemplates()]);

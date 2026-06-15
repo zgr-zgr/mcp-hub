@@ -10,7 +10,7 @@ import { Star, ExternalLink, Terminal, ArrowLeft, Download } from "lucide-react"
 import { serverCategoryIcon } from "@/components/ServerCard";
 import CopyButton from "@/components/CopyButton";
 
-export const dynamic = "force-static";
+export const dynamic = "force-dynamic";
 
 interface Props {
   params: Promise<{ name: string }>;
